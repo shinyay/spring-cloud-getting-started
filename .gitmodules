@@ -1,0 +1,3 @@
+[submodule "spring-cloud-gateway-gs"]
+	path = spring-cloud-gateway-gs
+	url = https://github.com/shinyay/spring-cloud-gateway-gs.git
