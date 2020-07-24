@@ -4,6 +4,8 @@ Overview
 
 ## Description
 
+![spring-cloud-diagram](images/spring-cloud.png)
+
 ## Demo
 
 ## Features
