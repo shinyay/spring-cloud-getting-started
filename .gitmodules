@@ -4,3 +4,6 @@
 [submodule "spring-cloud-loadbalancer-gs"]
 	path = spring-cloud-loadbalancer-gs
 	url = https://github.com/shinyay/spring-cloud-loadbalancer-gs.git
+[submodule "spring-cloud-config-gs"]
+	path = spring-cloud-config-gs
+	url = https://github.com/shinyay/spring-cloud-config-gs.git
