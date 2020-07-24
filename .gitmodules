@@ -10,3 +10,6 @@
 [submodule "spring-cloud-eureka-server-gs"]
 	path = spring-cloud-eureka-server-gs
 	url = https://github.com/shinyay/spring-cloud-eureka-server-gs.git
+[submodule "spring-cloud-config-client-gs"]
+	path = spring-cloud-config-client-gs
+	url = https://github.com/shinyay/spring-cloud-config-client-gs
