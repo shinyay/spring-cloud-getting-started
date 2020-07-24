@@ -1,6 +1,19 @@
-# Name
+# Spring Cloud Getting Started
 
-Overview
+Spring Cloud provides various useful functions to solove the distributed architecture like Microservices.
+This application uses the following services:
+- Spring Cloud Gateway
+- Spring Cloud Loadbalancer
+- Spring Cloud Config Server
+- Spring Cloud Eureka
+
+|Spring Cloud|Functions|
+|------------|---------|
+|Spring Cloud Gateway|API Gateway|
+|Spring Cloud Loadbalancer|Load Balancing|
+|Spring Cloud Config Server|Configuration Management|
+|Spring Cloud Eureka|Service Discovery|
+
 
 ## Description
 
