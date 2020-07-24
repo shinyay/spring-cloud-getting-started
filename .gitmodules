@@ -1,3 +1,6 @@
 [submodule "spring-cloud-gateway-gs"]
 	path = spring-cloud-gateway-gs
 	url = https://github.com/shinyay/spring-cloud-gateway-gs.git
+[submodule "spring-cloud-loadbalancer-gs"]
+	path = spring-cloud-loadbalancer-gs
+	url = https://github.com/shinyay/spring-cloud-loadbalancer-gs.git
