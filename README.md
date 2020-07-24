@@ -19,6 +19,14 @@ This application uses the following services:
 
 ![spring-cloud-diagram](images/spring-cloud.png)
 
+### Related Repository
+
+- https://github.com/shinyay/spring-cloud-gateway-gs
+- https://github.com/shinyay/spring-cloud-loadbalancer-gs
+- https://github.com/shinyay/spring-cloud-config-gs
+- https://github.com/shinyay/spring-cloud-eureka-server-gs
+- https://github.com/shinyay/spring-cloud-config-client-gs
+
 ## Demo
 
 ## Features
