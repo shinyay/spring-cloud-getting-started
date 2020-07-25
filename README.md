@@ -41,6 +41,8 @@ Spring Cloud Gateway provides APIs and coross cutting concerns to APIs such as s
 ##### Implementation
 Register routing configuration ro Loadbalancer service into Config Server
 
+![gateway](images/spring-cloud-gateway.png)
+
 ```yaml
 spring:
   cloud:
