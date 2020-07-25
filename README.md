@@ -38,6 +38,24 @@ Spring Cloud Gateway provides APIs and coross cutting concerns to APIs such as s
   - Path Rewriting
   - Spring Cloud DiscoveryClient integration
 
+##### Implementation
+Register routing configuration ro Loadbalancer service into Config Server
+
+```yaml
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: loadbalancer
+          uri: lb://loadbalancer
+          predicates:
+            - Path=/myapp/**
+          filters:
+            - RewritePath=/myapp/(?<path>.*), /$\{path}
+```
 
 ## Demo
 
