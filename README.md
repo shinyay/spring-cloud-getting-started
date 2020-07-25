@@ -62,6 +62,21 @@ spring:
 #### 2. Spring Cloud Config
 Spring Cloud Config provides server-side and client-side support for externalized configuration in a distributed system.The default implementation of the server storage backend uses git.
 
+- Background Repository Environment
+  - Github
+  - Google Code Source Repository
+  - AWS Code Commit
+  - File System
+  - Vault
+  - JDBC
+  - Redis
+  - AWS S3
+  - CredHub
+  -
+
+##### Implementation
+
+
 ## Demo
 
 ## Features
