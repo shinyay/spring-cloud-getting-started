@@ -76,6 +76,16 @@ Spring Cloud Config provides server-side and client-side support for externalize
 
 ##### Implementation
 
+```yaml
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/your-account/config-repo.git
+          search-paths: repos/
+```
+
 
 ## Demo
 
