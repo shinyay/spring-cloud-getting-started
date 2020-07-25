@@ -59,6 +59,9 @@ spring:
             - RewritePath=/myapp/(?<path>.*), /$\{path}
 ```
 
+#### 2. Spring Cloud Config
+Spring Cloud Config provides server-side and client-side support for externalized configuration in a distributed system.The default implementation of the server storage backend uses git.
+
 ## Demo
 
 ## Features
