@@ -27,6 +27,18 @@ This application uses the following services:
 - https://github.com/shinyay/spring-cloud-eureka-server-gs
 - https://github.com/shinyay/spring-cloud-config-client-gs
 
+### Role for each Services
+#### 1. Spring Cloud Gateway
+Spring Cloud Gateway provides APIs and coross cutting concerns to APIs such as security, metrics and resiliency.
+
+- Features
+  - Match routes on any request attribute
+  - Predicates and filters are specific to routes
+  - Request Rate Limiting
+  - Path Rewriting
+  - Spring Cloud DiscoveryClient integration
+
+
 ## Demo
 
 ## Features
