@@ -102,6 +102,7 @@ Spring Cloud Netflix Eureka provides **service-discovery** which allow services(
 ![eureka](images/spring-cloud-eureka.png)
 
 ##### Implementation
+The following configuration should be put in Eureka Client side Service
 
 ```yaml
 eureka:
