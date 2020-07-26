@@ -85,15 +85,15 @@ spring:
           uri: https://github.com/your-account/config-repo.git
           search-paths: repos/
 ```
-- uri
+- `uri`
   - The URI of the Git repository
   - It begins with http://, https://, git@, or ssh://
-- search-paths
+- `search-paths`
   - An array of strings used to search subdirectories of the Git repository
-- pattern
+- `pattern`
   - An array of strings used to match an application name
   - use the {application}/{profile} format with wildcards
-- default-label
+- `default-label`
   - The default label of the Git repository, should be the branch name, tag name, or commit-id of the repository
 
 
