@@ -72,7 +72,6 @@ Spring Cloud Config provides server-side and client-side support for externalize
   - Redis
   - AWS S3
   - CredHub
-  -
 
 ##### Implementation
 
@@ -86,6 +85,8 @@ spring:
           search-paths: repos/
 ```
 
+#### 3. Spring Cloud Netflix Eureka
+Spring Cloud Netflix Eureka provides service-discovery which allow services(Eureka Client) find and communicate with each other without hostname and port hard-coded.
 
 ## Demo
 
