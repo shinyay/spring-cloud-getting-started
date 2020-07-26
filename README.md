@@ -88,6 +88,8 @@ spring:
 #### 3. Spring Cloud Netflix Eureka
 Spring Cloud Netflix Eureka provides **service-discovery** which allow services(Eureka Client) find and communicate with each other without hostname and port hard-coded.
 
+![eureka](images/spring-cloud-eureka.png)
+
 ## Demo
 
 ## Features
