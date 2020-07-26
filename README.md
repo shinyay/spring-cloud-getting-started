@@ -29,7 +29,7 @@ This application uses the following services:
 
 ### Role for each Services
 #### 1. Spring Cloud Gateway
-Spring Cloud Gateway provides APIs and coross cutting concerns to APIs such as security, metrics and resiliency.
+Spring Cloud Gateway provides **APIs** and **cross cutting concerns** to APIs such as security, metrics and resiliency.
 
 - Features
   - Match routes on any request attribute
@@ -60,7 +60,7 @@ spring:
 ```
 
 #### 2. Spring Cloud Config
-Spring Cloud Config provides server-side and client-side support for externalized configuration in a distributed system.The default implementation of the server storage backend uses git.
+Spring Cloud Config provides server-side and client-side support for **externalized configuration** in a distributed system.The default implementation of the server storage backend uses git.
 
 - Background Repository Environment
   - Github
@@ -86,7 +86,7 @@ spring:
 ```
 
 #### 3. Spring Cloud Netflix Eureka
-Spring Cloud Netflix Eureka provides service-discovery which allow services(Eureka Client) find and communicate with each other without hostname and port hard-coded.
+Spring Cloud Netflix Eureka provides **service-discovery** which allow services(Eureka Client) find and communicate with each other without hostname and port hard-coded.
 
 ## Demo
 
