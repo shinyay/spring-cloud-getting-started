@@ -103,6 +103,12 @@ Spring Cloud Netflix Eureka provides **service-discovery** which allow services(
 
 ##### Implementation
 
+```yaml
+eureka:
+  client:
+    service-url:
+      default-zone: ${EUREKA_URI:http://localhost:8761/eureka}
+```
 
 ## Demo
 
