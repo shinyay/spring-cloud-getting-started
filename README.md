@@ -2,10 +2,10 @@
 
 Spring Cloud provides various useful functions to solove the distributed architecture like Microservices.
 This application uses the following services:
-- Spring Cloud Gateway
-- Spring Cloud Loadbalancer
-- Spring Cloud Config Server
-- Spring Cloud Eureka
+- **Spring Cloud Gateway**
+- **Spring Cloud Loadbalancer**
+- **Spring Cloud Config Server**
+- **Spring Cloud Eureka**
 
 |Spring Cloud|Functions|
 |------------|---------|
