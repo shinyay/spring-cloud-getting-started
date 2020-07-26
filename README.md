@@ -74,6 +74,7 @@ Spring Cloud Config provides server-side and client-side support for **externali
   - CredHub
 
 ##### Implementation
+The following configuration should be put in Spring Cloud Config Client side Service
 
 ```yaml
 spring:
