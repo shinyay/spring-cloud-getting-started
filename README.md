@@ -112,6 +112,9 @@ eureka:
       default-zone: ${EUREKA_URI:http://localhost:8761/eureka}
 ```
 
+#### 4. Spring Cloud Loadbalancer
+Spring Cloud LoadBalancer provides client-side load-balancing in calls to another microservice, which used to provided with Netflix Ribbon.
+
 ## Demo
 
 ## Features
