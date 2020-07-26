@@ -115,6 +115,11 @@ eureka:
 #### 4. Spring Cloud Loadbalancer
 Spring Cloud LoadBalancer provides client-side load-balancing in calls to another microservice, which used to provided with Netflix Ribbon.
 
+- Load Balancer Client Implementation
+  - **Spring RestTemplate**
+  - **Spring WebClient**
+  - **Spring WebFlux WebClient**
+
 ## Demo
 
 ## Features
