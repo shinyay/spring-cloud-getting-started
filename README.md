@@ -84,11 +84,25 @@ spring:
           uri: https://github.com/your-account/config-repo.git
           search-paths: repos/
 ```
+- uri
+  - The URI of the Git repository
+  - It begins with http://, https://, git@, or ssh://
+- search-paths
+  - An array of strings used to search subdirectories of the Git repository
+- pattern
+  - An array of strings used to match an application name
+  - use the {application}/{profile} format with wildcards
+- default-label
+  - The default label of the Git repository, should be the branch name, tag name, or commit-id of the repository
+
 
 #### 3. Spring Cloud Netflix Eureka
 Spring Cloud Netflix Eureka provides **service-discovery** which allow services(Eureka Client) find and communicate with each other without hostname and port hard-coded.
 
 ![eureka](images/spring-cloud-eureka.png)
+
+##### Implementation
+
 
 ## Demo
 
