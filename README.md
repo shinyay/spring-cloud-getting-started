@@ -120,6 +120,27 @@ Spring Cloud LoadBalancer provides client-side load-balancing in calls to anothe
   - **Spring WebClient**
   - **Spring WebFlux WebClient**
 
+##### Implementation
+We have several ways to implement Load Balancer Client.
+The followings are some of them:
+
+###### a. Spring RestTemplate
+`RestTemplate` can be automatically configured to use a Load-balancer client.
+To create a load-balanced `RestTemplate`, create a `RestTemplate` `@Bean` and use the `@LoadBalanced` qualifier
+
+```
+@LoadBalanced
+@Bean
+fun template() = RestTemplate()
+```
+
+```kotlin
+fun call(): String = template.getForObject(url, String::class.java
+```
+
+###### b. Spring WebClient
+###### c. Spring WebFlux WebClient
+
 ## Demo
 
 ## Features
