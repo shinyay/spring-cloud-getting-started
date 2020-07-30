@@ -179,6 +179,9 @@ fun call(): Mono<String> = WebClient.builder()
             .bodyToMono(String::class.java)
 ```
 
+> To use `ReactorLoadBalancerExchangeFilterFunction`, set the `spring.cloud.loadbalancer.ribbon.enabled property` to **false**.
+
+
 ## Demo
 
 ## Features
