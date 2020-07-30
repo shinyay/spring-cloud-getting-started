@@ -149,7 +149,10 @@ fun webClient() = WebClient.builder()
 ```
 
 ```kotlin
-fun call2(): Mono<String> = webClientBuilder.build()
+@Autowired
+val webClientBuilder: WebClient.Builder
+
+fun call(): Mono<String> = webClientBuilder.build()
                 .get()
                 .uri(url)
                 .retrieve()
