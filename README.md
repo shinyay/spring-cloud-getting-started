@@ -128,7 +128,7 @@ The followings are some of them:
 `RestTemplate` can be automatically configured to use a Load-balancer client.
 To create a load-balanced `RestTemplate`, create a `RestTemplate` `@Bean` and use the `@LoadBalanced` qualifier
 
-```
+```kotlin
 @LoadBalanced
 @Bean
 fun template() = RestTemplate()
@@ -139,6 +139,23 @@ fun call(): String = template.getForObject(url, String::class.java
 ```
 
 ###### b. Spring WebClient
+`WebClient` can be automatically configured to use a load-balancer client.
+To create a load-balanced `WebClient`, create a `WebClient.Builder` `@Bean` and use the `@LoadBalanced` qualifier
+
+```kotlin
+@LoadBalanced
+@Bean
+fun webClient() = WebClient.builder()
+```
+
+```kotlin
+fun call2(): Mono<String> = webClientBuilder.build()
+                .get()
+                .uri(url)
+                .retrieve()
+                .bodyToMono(String::class.java)
+```
+
 ###### c. Spring WebFlux WebClient
 
 ## Demo
