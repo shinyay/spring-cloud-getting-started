@@ -135,6 +135,9 @@ fun template() = RestTemplate()
 ```
 
 ```kotlin
+@Autowired
+val template: RestTemplate
+
 fun call(): String = template.getForObject(url, String::class.java
 ```
 
