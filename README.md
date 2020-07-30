@@ -157,6 +157,21 @@ fun call2(): Mono<String> = webClientBuilder.build()
 ```
 
 ###### c. Spring WebFlux WebClient
+If you add `org.springframework.cloud:spring-cloud-loadbalancer` to your project, `ReactorLoadBalancerExchangeFilterFunction` is auto-configured if `spring-webflux` is on the classpath.
+
+```kotlin
+@Autowired
+val lbFunction:ReactorLoadBalancerExchangeFilterFunction
+
+fun call(): Mono<String> = WebClient.builder()
+            .baseUrl(baseUrl)
+            .filter(lbFunction)
+            .build()
+            .get()
+            .uri("/myapp")
+            .retrieve()
+            .bodyToMono(String::class.java)
+```
 
 ## Demo
 
