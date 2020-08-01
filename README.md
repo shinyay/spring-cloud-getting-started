@@ -184,6 +184,21 @@ fun call(): Mono<String> = WebClient.builder()
 
 ## Demo
 
+1. [spring-cloud-config-gs](https://github.com/shinyay/spring-cloud-config-gs)
+  `./gradlew clean bootRun`
+1. [spring-cloud-eureka-server-gs](https://github.com/shinyay/spring-cloud-eureka-server-gs)
+  `./gradlew clean bootRun`
+1. [spring-cloud-loadbalancer-gs](https://github.com/shinyay/spring-cloud-loadbalancer-gs)
+  `./gradlew clean bootRun`
+1. [spring-cloud-gateway-gs](https://github.com/shinyay/spring-cloud-gateway-gs)
+  `./gradlew clean bootRun`
+1. [spring-cloud-config-client-gs](https://github.com/shinyay/spring-cloud-config-client-gs)
+  `./gradlew clean bootRun`
+1. `$ curl localhost:8080/myapp`
+   - `$ curl localhost:8090/myapp`
+   - `$ curl localhost:8090/myapp2`
+   - `$ curl localhost:8090/myapp3`
+
 ## Features
 
 - feature:1
